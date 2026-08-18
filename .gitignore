@@ -1,0 +1,11 @@
+# Build and simulation artifacts
+build/
+xsim.dir/
+.Xil/
+*.log
+*.jou
+*.pb
+*.vcd
+*.mem
+gqa_wrapper_sim
+sim_softmax

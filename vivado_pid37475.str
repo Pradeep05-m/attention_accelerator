@@ -1,0 +1,169 @@
+/*
+
+AMD Vivado v2025.2 (64-bit) [Major: 2025, Minor: 2]
+SW Build: 6299465 on Fri Nov 14 12:34:56 MST 2025
+IP Build: 6300035 on Fri Nov 14 10:48:45 MST 2025
+IP Build: 6300035 on Fri Nov 14 10:48:45 MST 2025
+
+Process ID (PID): 37475
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Aug 06 15:16:39 IST 2026
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 7.0.0-28-generic
+OS Architecture: amd64
+Available processors (cores): 12
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 38, width = 1920, height = 1042
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.5 64-bit
+
+Java home: 	/home/prad/2025.2/tps/lnx64/jre21.0.5_11
+Java executable: 	/home/prad/2025.2/tps/lnx64/jre21.0.5_11/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms812m, -Xmx6144m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	812 MB
+Java maximum memory (-Xmx):	 6 GB
+
+User name: 	prad
+User home directory: /home/prad
+User working directory: /home/prad/Downloads/amd/att
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/prad/2025.2
+HDI_APPROOT: /home/prad/2025.2/Vivado
+RDI_DATADIR: /home/prad/Downloads/amd/att/:/home/prad/2025.2/data
+RDI_BINDIR: /home/prad/2025.2/Vivado/bin
+
+Vivado preferences file: /home/prad/.Xilinx/Vivado/2025.2/vivado.xml
+Vivado preferences directory: /home/prad/.Xilinx/Vivado/2025.2/
+Vivado layouts directory: /home/prad/.Xilinx/Vivado/2025.2/data/layouts
+PlanAhead jar file: 	/home/prad/2025.2/Vivado/lib/classes/planAhead.jar
+Vivado log file: 	/home/prad/Downloads/amd/att/vivado.log
+Vivado journal file: 	/home/prad/Downloads/amd/att/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-37475-prad
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /home/prad/2025.2/Vivado
+RDI_BASEROOT: /home/prad/2025.2
+RDI_BINROOT: /home/prad/2025.2/Vivado/bin
+RDI_BUILD: yes
+RDI_DATADIR: :/home/prad/2025.2/data
+RDI_INSTALLROOT: /home/prad
+RDI_INSTALLVER: Vivado
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.5_11
+RDI_LIBDIR: /home/prad/2025.2/Vivado/lib/lnx64.o/Ubuntu:/home/prad/2025.2/Vivado/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/prad/2025.2/Vitis/bin:/home/prad/2025.2/Vivado/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/prad/2025.2/Vivado/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/prad/Downloads/amd/att:prad_1786009588_37379
+RDI_SHARED_DATA: 
+RDI_TPS_ROOT: /home/prad/2025.2/Vivado/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /usr/bin/zsh
+XILINX: /home/prad/2025.2/Vivado/ids_lite/ISE
+XILINX_DSP: /home/prad/2025.2/Vivado/ids_lite/ISE
+XILINX_HLS: /home/prad/2025.2/Vitis
+XILINX_PLANAHEAD: /home/prad/2025.2/Vivado
+XILINX_SDK: /home/prad/2025.2/Vitis
+XILINX_VITIS: /home/prad/2025.2/Vitis
+XILINX_VIVADO: /home/prad/2025.2/Vivado
+
+
+GUI allocated memory:	812 MB
+GUI max memory:		6,144 MB
+Engine allocated memory: 1,872 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Error: 'Can't open project 'gqa_wrapper_sim'. Please verify that the project file still exists. (Open Project)'
+selectButton("OptionPane.button", "OK", "Open Project"); // JButton (OptionPane.button)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,891 MB. GUI used memory: 67 MB. Current time: 8/6/26, 3:16:41 PM IST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/prad/Downloads/atten/atten.xpr", 0); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// Opening Vivado Project: /home/prad/Downloads/atten/atten.xpr. Version: Vivado v2025.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 160 MB (+165343kb) [00:00:13]
+// [Engine Memory]: 1,959 MB (+1902602kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  1543 ms.
+// Tcl Message: open_project /home/prad/Downloads/atten/atten.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/prad/Downloads/atten/atten.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/prad/2025.2/data/ip'. 
+// Project name: atten; location: /home/prad/Downloads/atten; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// [GUI Memory]: 173 MB (+5240kb) [00:00:15]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_gqa_attention_wrapper_v2 (tb_gqa_attention_wrapper.sv)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_gqa_attention_wrapper_v2 (tb_gqa_attention_wrapper.sv), dut : gqa_attention_wrapper (gqa_attention_wrapper.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_gqa_attention_wrapper_v2 (tb_gqa_attention_wrapper.sv), dut : gqa_attention_wrapper (gqa_attention_wrapper.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:17:12 PM IST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_gqa_attention_wrapper_v2 (tb_gqa_attention_wrapper.sv), dut : gqa_attention_wrapper (gqa_attention_wrapper.v)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:17:52 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:18:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:19:12 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:19:52 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:20:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:21:12 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:21:52 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:22:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:23:12 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:23:52 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:24:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:25:12 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,021 MB. GUI used memory: 101 MB. Current time: 8/6/26, 3:25:52 PM IST
