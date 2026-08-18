@@ -1,5 +1,9 @@
 # Llama-3 GQA Attention RTL Accelerator
 
+[![Engineering Portfolio](https://img.shields.gradient.is/badge/Portfolio-Pradeep_M_RTL_Lab-00f0ff?style=for-the-badge&logo=microchip)](https://pradeep05-m.github.io/attention_accelerator/)
+
+> 🌐 **Interactive Engineering Portfolio**: [https://pradeep05-m.github.io/attention_accelerator/](https://pradeep05-m.github.io/attention_accelerator/)
+
 ![Architecture Flowchart](docs/images/attention_accelerator_architecture.svg)
 
 This is a BF16 GQA attention core targeting the Llama-3 8B geometry: 32 Q
