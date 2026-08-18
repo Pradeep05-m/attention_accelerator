@@ -1,10 +1,13 @@
-# Llama-3 GQA attention RTL baseline
+# Llama-3 GQA Attention RTL Accelerator
+
+![Architecture Flowchart](docs/images/attention_accelerator_architecture.svg)
 
 This is a BF16 GQA attention core targeting the Llama-3 8B geometry: 32 Q
 heads, 8 KV heads, group size 4, and head dimension 128. Its default RTL
 configuration uses a 256-bit AXI4-Stream ingress/egress. The fit-oriented
 PYNQ-Z2 block-design configuration uses a 64-bit stream. BF16 is implemented
 in LUT/DSP logic; the Zynq-7020 has no native BF16 DSP mode.
+
 
 For PYNQ-Z2 synthesis the block design configures `GROUP_SIZE=1`. This
 time-multiplexes the four Q heads belonging to each KV head through one
@@ -163,6 +166,8 @@ vvp /tmp/tb_bf16 +MEM_DIR=tests/data/bf16_primitives
 ```
 
 ## PYNQ-Z2 synthesis
+
+![Vivado Synthesis Run](docs/images/vivado_synthesis_run.png)
 
 Use Vivado 2020.2-compatible tooling (the PYNQ-Z2's Zynq-7020 target is
 `xc7z020clg400-1`) to run:
